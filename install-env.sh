@@ -4,7 +4,7 @@ touch /tmp/hello.txt
 echo "Hello" > /tmp/hello.txt
 cd /var/www/html
 sudo git clone https://github.com/ITMO544-AravindSeshadri/MP2-Application-Setup.git
-sudo mv -v MP1-Application-Setup/* /var/www/html
+sudo mv -v MP2-Application-Setup/* /var/www/html
 sudo rm -rf /var/www/html/MP2-Application-Setup
 cd /home/controller
 sudo curl -sS https://getcomposer.org/installer | php
